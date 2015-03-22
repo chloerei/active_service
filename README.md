@@ -1,8 +1,10 @@
 # ActiveService
 
-ActiveService is a service object framework for Rails.
+ActiveService is a service object framework.
 
-It is lightweight, almost no performance loss. It's testable, work well with all test framework like minitest/respec.
+It is lightweight and fast, almost no performance loss. It's test friendly, work well with all test framework like minitest/respec.
+
+It add a servcie layer in Rails, you can Rails generator to generate service just like controller and model.
 
 ## Installation
 
@@ -54,7 +56,7 @@ If you are using Rails:
 rails g service hello
 ```
 
-Then it will create a template service in app/servcies.
+It will create a template service file in app/services and a test file in test/services.
 
 ## Development
 
