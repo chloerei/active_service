@@ -18,6 +18,44 @@ And then execute:
 
 ## Usage
 
+Declare a service like so:
+
+```ruby
+class HelloService < ActiveService::Base
+  def initialize(name)
+    @name = name
+  end
+
+  def say_hello
+    "Hello #{@name}!"
+  end
+end
+```
+
+Initialize service object:
+
+```ruby
+hello_service = HelloService.new('David')
+```
+
+Execute service:
+
+```ruby
+hello_service.say_hello
+```
+
+Of course you can use other method name.
+
+## Rails generator
+
+If you are using Rails:
+
+```bash
+rails g service hello
+```
+
+Then it will create a template service in app/servcies.
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
