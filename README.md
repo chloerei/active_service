@@ -1,28 +1,22 @@
-# Activeservice
+# ActiveService
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/activeservice`. To experiment with that code, run `bin/console` for an interactive prompt.
+ActiveService is a service object framework for Rails.
 
-TODO: Delete this and the text above, and describe your gem
+It is lightweight, almost no performance loss. It's testable, work well with all test framework like minitest/respec.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'activeservice'
+gem 'activeservice', github: 'chloerei/activeservice'
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install activeservice
-
 ## Usage
-
-TODO: Write usage instructions here
 
 ## Development
 
