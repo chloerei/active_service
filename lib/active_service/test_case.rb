@@ -1,6 +1,6 @@
 require 'active_support/test_case'
 
 module ActiveService
-  class TestCase < Minitest::Test
+  class TestCase < ActiveSupport::TestCase
   end
 end
