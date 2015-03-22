@@ -9,7 +9,7 @@ module Rails
         File.dirname(__FILE__)
       end
 
-      check_class_collision suffix: 'Job'
+      check_class_collision suffix: 'Service'
 
       def create_service_file
         template 'service.rb', File.join('app/services', class_path, "#{file_name}_service.rb")
