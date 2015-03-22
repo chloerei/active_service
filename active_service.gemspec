@@ -3,14 +3,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'active_service/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "activeservice"
+  spec.name          = "active_service"
   spec.version       = Activeservice::VERSION
   spec.authors       = ["Rei"]
   spec.email         = ["chloerei@gmail.com"]
 
   spec.summary       = %q{Service object framework for rails.}
   spec.description   = %q{Service object framework for rails.}
-  spec.homepage      = "https://github.com/chloerei/activeservice/"
+  spec.homepage      = "https://github.com/chloerei/active_service/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
