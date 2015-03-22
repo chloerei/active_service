@@ -11,7 +11,7 @@ It add a servcie layer in Rails, you can Rails generator to generate service jus
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'activeservice', github: 'chloerei/activeservice'
+gem 'active_service', github: 'chloerei/active_service'
 ```
 
 And then execute:
