@@ -2,7 +2,7 @@
 
 ActiveService is a service object framework.
 
-It is lightweight and fast, almost no performance loss. It's testing friendly, works great with all test framework like minitest/respec.
+It is lightweight and fast, almost no performance loss. It's testing friendly, works great with all test framework like minitest/rspec.
 
 It also add a servcie layer in Rails, you can use Rails generator to generate service file like controller and model.
 
