@@ -3,7 +3,7 @@ require 'rails/generators/named_base'
 module Rails
   module Generators
     class ServiceGenerator < Rails::Generators::NamedBase
-      desc 'This generator creates an service file at app/services'
+      desc 'This generator creates a service file at app/services'
 
       def self.default_generator_root
         File.dirname(__FILE__)
